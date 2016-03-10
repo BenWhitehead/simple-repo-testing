@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo "master branch"
+echo "testing branch"
 
 env | sort
 
-echo "##teamcity[setParameter name='env.TESTING_VER' value='master']"
+echo "##teamcity[setParameter name='env.TESTING_VER' value='testing']"
 
 
